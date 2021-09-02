@@ -1,0 +1,154 @@
+[21:16:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:16:25] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:16:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:16:25] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2855 for Minecraft 1.12.2 loading
+[21:16:25] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_292, running on Linux:amd64:5.12.19-hardened1-1-hardened, installed at /usr/lib/jvm/java-8-openjdk/jre
+[21:16:25] [main/INFO] [FML]: Searching /home/terrav/techniphilia/core/server-test/./mods for mods
+[21:16:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:16:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:16:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:16:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:16:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:16:26] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[21:16:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:16:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:16:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:16:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:16:26] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[21:16:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[21:16:28] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2855 Initialized
+[21:16:28] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[21:16:28] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[21:16:28] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[21:16:28] [Server thread/INFO] [FML]: Config directory created successfully
+[21:16:28] [Server thread/INFO] [FML]: Searching /home/terrav/techniphilia/core/server-test/./mods for mods
+[21:16:28] [Server thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[21:16:28] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[21:16:28] [Server thread/WARN] [FML]: Missing English translation for techniphilia-core: assets/techniphilia-core/lang/en_us.lang
+[21:16:29] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, techniphilia, techniphilia-core] at CLIENT
+[21:16:29] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, techniphilia, techniphilia-core] at SERVER
+[21:16:29] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[21:16:29] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[21:16:29] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[21:16:29] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[21:16:29] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[21:16:29] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[21:16:29] [Server thread/INFO] [techniphilia-core]: TechniphiliaCore: preinit
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `copper_ore`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `copper_ore`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `copper_ingot`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `tin_ore`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `tin_ore`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `tin_ingot`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `copper_dust`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `tin_dust`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: ****************************************
+[21:16:29] [Server thread/WARN] [FML]: * Invalid registration attempt for an Ore Dictionary item with name oreCopper has occurred. The registration has been denied to prevent crashes. The mod responsible for the registration needs to correct this.
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOreImpl(OreDictionary.java:665)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:651)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:650)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.javaserver.techniphilia.core.ComponentCoreLoader.registerBlocks(ComponentCoreLoader.java:57)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_ComponentCoreLoader_registerBlocks_Register.invoke(.dynamic)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)...
+[21:16:29] [Server thread/WARN] [FML]: ****************************************
+[21:16:29] [Server thread/WARN] [FML]: ****************************************
+[21:16:29] [Server thread/WARN] [FML]: * Invalid registration attempt for an Ore Dictionary item with name oreTin has occurred. The registration has been denied to prevent crashes. The mod responsible for the registration needs to correct this.
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOreImpl(OreDictionary.java:665)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:651)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:650)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.javaserver.techniphilia.core.ComponentCoreLoader.registerBlocks(ComponentCoreLoader.java:59)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_ComponentCoreLoader_registerBlocks_Register.invoke(.dynamic)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)...
+[21:16:29] [Server thread/WARN] [FML]: ****************************************
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `copper_block`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: ****************************************
+[21:16:29] [Server thread/WARN] [FML]: * Invalid registration attempt for an Ore Dictionary item with name blockCopper has occurred. The registration has been denied to prevent crashes. The mod responsible for the registration needs to correct this.
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOreImpl(OreDictionary.java:665)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:651)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:650)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.javaserver.techniphilia.core.ComponentCoreLoader.registerBlocks(ComponentCoreLoader.java:61)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_ComponentCoreLoader_registerBlocks_Register.invoke(.dynamic)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)...
+[21:16:29] [Server thread/WARN] [FML]: ****************************************
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `tin_block`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: ****************************************
+[21:16:29] [Server thread/WARN] [FML]: * Invalid registration attempt for an Ore Dictionary item with name blockTin has occurred. The registration has been denied to prevent crashes. The mod responsible for the registration needs to correct this.
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOreImpl(OreDictionary.java:665)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:651)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:650)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.javaserver.techniphilia.core.ComponentCoreLoader.registerBlocks(ComponentCoreLoader.java:63)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_ComponentCoreLoader_registerBlocks_Register.invoke(.dynamic)
+[21:16:29] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)...
+[21:16:29] [Server thread/WARN] [FML]: ****************************************
+[21:16:29] [Server thread/INFO] [FML]: Applying holder lookups
+[21:16:29] [Server thread/INFO] [FML]: Holder lookups applied
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `copper_nugget`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `tin_nugget`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `copper_block`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `techniphilia` for name `tin_block`, expected `techniphilia-core`. This could be a intended override, but in most cases indicates a broken mod.
+[21:16:29] [Server thread/INFO] [FML]: Applying holder lookups
+[21:16:29] [Server thread/INFO] [FML]: Holder lookups applied
+[21:16:29] [Server thread/INFO] [FML]: Applying holder lookups
+[21:16:29] [Server thread/INFO] [FML]: Holder lookups applied
+[21:16:29] [Server thread/INFO] [FML]: Applying holder lookups
+[21:16:29] [Server thread/INFO] [FML]: Holder lookups applied
+[21:16:29] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:16:29] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:16:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[21:16:29] [Server thread/WARN] [net.minecraft.server.dedicated.PropertyManager]: server.properties does not exist
+[21:16:29] [Server thread/INFO] [net.minecraft.server.dedicated.PropertyManager]: Generating new properties file
+[21:16:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[21:16:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[21:16:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[21:16:29] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[21:16:29] [Server thread/INFO] [FML]: Applying holder lookups
+[21:16:29] [Server thread/INFO] [FML]: Holder lookups applied
+[21:16:29] [Server thread/INFO] [techniphilia-core]: Hello blocky world!
+[21:16:29] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:16:29] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:16:29] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[21:16:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[21:16:29] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@7d721cef)
+[21:16:29] [Netty Epoll Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[21:16:30] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[21:16:30] [Netty Epoll Server IO #2/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[21:16:30] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@7d721cef)
+[21:16:30] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@7d721cef)
+[21:16:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[21:16:30] [Netty Epoll Server IO #3/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[21:16:30] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[21:16:30] [Netty Epoll Server IO #4/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[21:16:31] [Netty Epoll Server IO #5/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[21:16:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 17%
+[21:16:31] [Netty Epoll Server IO #6/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[21:16:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 38%
+[21:16:33] [Netty Epoll Server IO #7/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[21:16:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 58%
+[21:16:33] [Netty Epoll Server IO #8/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[21:16:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 76%
+[21:16:34] [Netty Epoll Server IO #9/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[21:16:35] [Netty Epoll Server IO #10/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[21:16:35] [Netty Epoll Server IO #11/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[21:16:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 98%
+[21:16:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (5.746s)! For help, type "help" or "?"
+[21:16:35] [Server thread/INFO] [FML]: Unloading dimension -1
+[21:16:35] [Server thread/INFO] [FML]: Unloading dimension 1
+[21:16:40] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player TeraV is 7cd75caf-987f-47ff-80bc-20e9f6bc873d
+[21:16:41] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[21:16:41] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,techniphilia@1,FML@8.0.99.99,forge@14.23.5.2855,endercore@1.12.2-0.5.76,mcp@9.42,techniphilia-core@0.5.10.3,waila@1.8.26
+[21:16:41] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[21:16:41] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: TeraV[/127.0.0.1:55516] logged in with entity id 2095 at (134.5, 77.0, 260.5)
+[21:16:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TeraV joined the game
+[21:16:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped TeraV
+[21:16:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TeraV: Set own game mode to Creative Mode]
+[21:17:40] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: TeraV lost connection: Disconnected
+[21:17:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TeraV left the game
+[21:17:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[21:17:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[21:17:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[21:17:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[21:17:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[21:17:47] [Server thread/INFO] [FML]: Unloading dimension 0
+[21:17:47] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[21:17:47] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[21:17:47] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds

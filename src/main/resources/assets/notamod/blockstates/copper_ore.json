@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "techniphilia:block/copper_ore" }
+        ],
+        "inventory": [
+            { "model": "techniphilia:item/copper_ore" }
+        ]
+    }
+}

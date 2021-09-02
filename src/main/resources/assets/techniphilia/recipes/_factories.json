@@ -1,0 +1,5 @@
+{
+    "recipes": {
+        "grinding": "net.javaserver.techniphilia.core.crafting.GrindingRecipeFactory"
+    }
+}

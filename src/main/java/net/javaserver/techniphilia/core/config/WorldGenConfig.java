@@ -1,0 +1,19 @@
+package net.javaserver.techniphilia.core.config;
+
+import net.javaserver.techniphilia.core.common.ModRegistry;
+import net.minecraftforge.common.config.Config;
+
+@Config(modid = ModRegistry.MOD_ID,
+        name = "techniphilia/worldgen/core")
+public class WorldGenConfig {
+    public static int copperVeinSizeMin = 4;
+    public static int copperVeinSizeMax = 10;
+    public static int copperVeinsPerChunk = 12;
+    public static int copperVeinMinY = 6;
+    public static int copperVeinMaxY = 56;
+    public static int tinVeinSizeMin = 2;
+    public static int tinVeinSizeMax = 8;
+    public static int tinVeinsPerChunk = 8;
+    public static int tinVeinMinY = 20;
+    public static int tinVeinMaxY = 52;
+}

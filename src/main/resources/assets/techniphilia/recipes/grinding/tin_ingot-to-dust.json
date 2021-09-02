@@ -1,0 +1,8 @@
+{
+    "type": "techniphilia:grinding",
+    "ingredient": {
+        "type": "forge:ore_dict",
+        "ore": "ingotTin"
+    },
+    "result": "techniphilia:tin_dust"
+}

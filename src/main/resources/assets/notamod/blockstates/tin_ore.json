@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "techniphilia:block/tin_ore" }
+        ],
+        "inventory": [
+            { "model": "techniphilia:item/tin_ore" }
+        ]
+    }
+}

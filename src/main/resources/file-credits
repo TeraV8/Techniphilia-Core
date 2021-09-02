@@ -1,0 +1,9 @@
+# resources
+/: TeraV
+/mcmod.info: Forge, TeraV
+/pack.mcmeta: Mojang, Forge, TeraV
+/assets/techniphilia/textures/: CosmicWolf
+
+# actual code
+net.javaserver.techniphilia.*: TeraV
+net.javaserver.techniphilia.core.ComponentCoreLoader: Forge, TeraV

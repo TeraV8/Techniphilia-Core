@@ -1,0 +1,339 @@
+{
+    "current_version": "0.5.10.5",
+    "version_history": [
+        {
+            "version_id": "0.5.10.5",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "08/28/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added like, a ton of new language descriptors for upcoming additions."
+            ]
+        },
+        {
+            "version_id": "0.5.10.4",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "08/27/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Temporarily removed blockstate definitions for Copper and Tin ores."
+            ]
+        },
+        {
+            "version_id": "0.5.10.3",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/20/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added smelting recipes for Copper and Tin ingots from their corresponding dusts."
+            ]
+        },
+        {
+            "version_id": "0.5.10.2",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/20/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Cleaned up registry code.",
+                "OreDictionary names now register immediately after their corresponding block/item.",
+                "Added support for Techniphilia Grinding recipes.",
+                "Added copper and tin dust."
+            ]
+        },
+        {
+            "version_id": "0.4.10.2",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/17/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Updated Copper Block to be Rock material.",
+                "Updated Tin Ore to use Ice map color.",
+                "Added Tin Block."
+            ]
+        },
+        {
+            "version_id": "0.4.9.2",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/17/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added Copper Block."
+            ]
+        },
+        {
+            "version_id": "0.4.8.2",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/16/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added Tin Nugget.",
+                "Added nuggetifying and reassembling recipes for Tin Ingot and Nugget."
+            ]
+        },
+        {
+            "version_id": "0.4.7.2",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/16/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added recipes to nuggetify and reassemble copper ingots."
+            ]
+        },
+        {
+            "version_id": "0.4.7.1",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/15/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added Copper Nugget.",
+                "Added empty mod declaration for Techniphilia."
+            ]
+        },
+        {
+            "version_id": "0.4.6.1",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/14/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added Tin Ingot.",
+                "Added smelting recipes for Copper and Tin ingots."
+            ]
+        },
+        {
+            "version_id": "0.4.5.1",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/14/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added Copper Ingot, currently unobtainable in Survival.",
+                "OreDictionary is now registered in preInit."
+            ]
+        },
+        {
+            "version_id": "0.4.4.1",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/14/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added config option to disable worldgen.",
+                "Added texture JSON for future copper ingot."
+            ]
+        },
+        {
+            "version_id": "0.4.3.1",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/05/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added Tin Ore to mimic Copper Ore but slightly less dense and more rare."
+            ]
+        },
+        {
+            "version_id": "0.3.3.1",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/05/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added general configuration for Techniphilia Core and a more precise configuration for new worldgen.",
+                "Copper Ore should now naturally generate based on constants in config/techniphilia/worldgen/core.cfg."
+            ]
+        },
+        {
+            "version_id": "0.2.3.1",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/05/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added OreDictionary name for Copper Ore."
+            ]
+        },
+        {
+            "version_id": "0.2.2.1",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/05/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Fixed copper ore name displaying as tile.null.name.",
+                "Added item names for future items."
+            ]
+        },
+        {
+            "version_id": "0.2.1.1",
+            "authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "release": false,
+            "build_date": "08/05/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": false,
+            "features": [
+                "Reworked the handling of block and item registry events.",
+                "Added many textures for future items.",
+                "Improved the texture of copper ore."
+            ]
+        },
+        {
+            "version_id": "0.2.1.0",
+            "authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "07/24/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Re-implemented the itemGroup into the common mod registry.",
+                "Added copper ore, currently useless, and only obtainable in creative or with cheats."
+            ]
+        },
+        {
+            "version_id": "0.1.1.0",
+            "authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "07/20/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Implemented an itemGroup for Techniphilia Core.",
+                "Isolated the client-based mod registry to the client side."
+            ]
+        },
+        {
+            "version_id": "0.1.0.0",
+            "authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "07/19/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Locked access to constructors of non-interactive classes.",
+                "Expanded resources to be held for all other components. Components will now require this mod."
+            ]
+        },
+        {
+            "version_id": "0.0.0.0",
+            "authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "07/19/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Created Techniphilia Core. This will now be used as the 'backbone' of the Techniphilia series."
+            ]
+        }
+    ]
+}
