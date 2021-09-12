@@ -103,8 +103,7 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registerRender(ItemTinDust.instance());
     }
     
-    
-    private static void registerRender(Item item) {
+    public static void registerRender(Item item) {
         ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation( item.getRegistryName(), "normal"));
     }
 

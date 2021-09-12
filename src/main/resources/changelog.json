@@ -1,6 +1,24 @@
 {
-    "current_version": "0.5.10.5",
+    "current_version": "0.5.10.6",
     "version_history": [
+        {
+            "version_id": "0.5.10.6",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "09/12/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": false,
+            "features": [
+                "Made registerRender(Item) function public."
+            ]
+        },
         {
             "version_id": "0.5.10.5",
             "project-authors": [

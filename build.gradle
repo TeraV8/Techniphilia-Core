@@ -14,7 +14,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.5.10.5'
+version = '0.5.10.6'
 group = 'net.javaserver.techniphilia' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'techniphilia-core'
 
