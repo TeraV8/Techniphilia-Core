@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "sps",
+        "psp",
+        "sps"
+    ],
+    "key": {
+        "s": {
+            "type": "forge:ore_dict",
+            "ore": "stickWood"
+        },
+        "p": {
+            "type": "forge:ore_dict",
+            "ore": "plankWood"
+        }
+    },
+    "result": {
+        "item": "techniphilia:wheel_wood",
+        "count": 1,
+        "data": 0
+    }
+}

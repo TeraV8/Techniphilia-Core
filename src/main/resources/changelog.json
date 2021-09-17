@@ -1,6 +1,24 @@
 {
-    "current_version": "0.5.10.6",
+    "current_version": "0.5.10.7",
     "version_history": [
+        {
+            "version_id": "0.5.10.7",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "09/16/2021",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added recipe for Wooden Wheel."
+            ]
+        },
         {
             "version_id": "0.5.10.6",
             "project-authors": [
