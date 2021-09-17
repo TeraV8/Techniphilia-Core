@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " G ",
+        "GWG",
+        " G "
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:gravel"
+        },
+        "W": {
+            "type": "forge:ore_dict",
+            "ore": "wheelStone"
+        }
+    }
+}

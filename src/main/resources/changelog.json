@@ -2,6 +2,11 @@
     "current_version": "0.5.10.7",
     "version_history": [
         {
+            "features": [
+                "Added recipes for Stone Wheel and Rough Wheel."
+            ]
+        },
+        {
             "version_id": "0.5.10.7",
             "project-authors": [
                 "TeraV",

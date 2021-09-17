@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/S/",
+        "S/S",
+        "/S/"
+    ],
+    "key": {
+        "/": {
+            "type": "forge:ore_dict",
+            "ore": "stickWood"
+        },
+        "S": {
+            "type": "forge:ore_dict",
+            "ore": "stone"
+        }
+    },
+    "result": {
+        "item": "techniphilia:wheel_stone",
+        "count": 1,
+        "data": 0
+    }
+}
