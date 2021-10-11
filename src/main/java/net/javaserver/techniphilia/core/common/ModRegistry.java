@@ -1,5 +1,6 @@
 package net.javaserver.techniphilia.core.common;
 
+import net.javaserver.techniphilia.core.common.block.BlockCopperOre;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import org.apache.logging.log4j.Logger;

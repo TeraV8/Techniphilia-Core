@@ -1,5 +1,6 @@
-package net.javaserver.techniphilia.core.common;
+package net.javaserver.techniphilia.core.common.item;
 
+import net.javaserver.techniphilia.core.common.ModRegistry;
 import net.minecraft.item.Item;
 
 public class ItemCopperIngot extends Item {

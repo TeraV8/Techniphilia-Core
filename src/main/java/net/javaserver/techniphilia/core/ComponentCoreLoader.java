@@ -1,5 +1,15 @@
 package net.javaserver.techniphilia.core;
 
+import net.javaserver.techniphilia.core.common.item.ItemTinIngot;
+import net.javaserver.techniphilia.core.common.item.ItemTinDust;
+import net.javaserver.techniphilia.core.common.item.ItemCopperIngot;
+import net.javaserver.techniphilia.core.common.item.ItemTinNugget;
+import net.javaserver.techniphilia.core.common.item.ItemCopperNugget;
+import net.javaserver.techniphilia.core.common.item.ItemCopperDust;
+import net.javaserver.techniphilia.core.common.block.BlockTin;
+import net.javaserver.techniphilia.core.common.block.BlockTinOre;
+import net.javaserver.techniphilia.core.common.block.BlockCopperOre;
+import net.javaserver.techniphilia.core.common.block.BlockCopper;
 import java.util.Random;
 import net.javaserver.techniphilia.core.common.*;
 import net.javaserver.techniphilia.core.config.TechniphiliaCoreConfig;

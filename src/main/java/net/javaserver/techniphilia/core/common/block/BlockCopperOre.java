@@ -1,5 +1,6 @@
-package net.javaserver.techniphilia.core.common;
+package net.javaserver.techniphilia.core.common.block;
 
+import net.javaserver.techniphilia.core.common.ModRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
