@@ -113,6 +113,7 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registerRender(BlockTin.itemBlock());
         registerRender(ItemCopperDust.instance());
         registerRender(ItemTinDust.instance());
+        registerRender(ToolHammerWood.instance());
     }
     
     public static void registerRender(Item item) {

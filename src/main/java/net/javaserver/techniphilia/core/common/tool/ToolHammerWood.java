@@ -6,7 +6,7 @@ import net.minecraft.item.ItemTool;
 public class ToolHammerWood extends ItemTool {
     private static ToolHammerWood instance = null;
     private ToolHammerWood() {
-        super(1.5F, 0.8F, ToolMaterial.WOOD, null);
+        super(0.5F, -3.2F, ToolMaterial.WOOD, null);
         setRegistryName("techniphilia", "hammer_wood");
         setUnlocalizedName("hammer_wood");
         setCreativeTab(ModRegistry.getItemGroup());
