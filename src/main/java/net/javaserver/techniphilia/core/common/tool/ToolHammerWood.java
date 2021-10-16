@@ -1,12 +1,11 @@
 package net.javaserver.techniphilia.core.common.tool;
 
 import net.javaserver.techniphilia.core.common.ModRegistry;
-import net.minecraft.item.ItemTool;
 
-public class ToolHammerWood extends ItemTool {
+public class ToolHammerWood extends ToolHammer {
     private static ToolHammerWood instance = null;
     private ToolHammerWood() {
-        super(0.5F, -3.2F, ToolMaterial.WOOD, null);
+        super(ToolMaterial.WOOD);
         setRegistryName("techniphilia", "hammer_wood");
         setUnlocalizedName("hammer_wood");
         setCreativeTab(ModRegistry.getItemGroup());
