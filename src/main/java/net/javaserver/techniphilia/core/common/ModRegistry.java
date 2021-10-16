@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 public class ModRegistry {
     public static final String MOD_NAME = "Techniphilia Core";
     public static final String MOD_ID = "techniphilia-core";
-    public static final String MOD_VERSION = "0.5.11.7";
+    public static final String MOD_VERSION = "0.5.11.8";
     public static Logger logger;
     private static ModItemGroup itemGroup = null;
     private ModRegistry() {}
