@@ -12,7 +12,7 @@ public class ModRegistry {
     public static Logger logger;
     private static ModItemGroup itemGroup = null;
     private ModRegistry() {}
-    public static CreativeTabs getItemGroup() {
+    public static synchronized CreativeTabs getItemGroup() {
         if (itemGroup == null) {
             itemGroup = new ModItemGroup();
         }
