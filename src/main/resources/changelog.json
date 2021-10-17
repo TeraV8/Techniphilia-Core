@@ -1,6 +1,23 @@
 {
-    "current_version": "0.5.11.10",
+    "current_version": "0.5.12.10",
     "version_history": [
+        {
+            "version_id": "0.5.12.10",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "10/17/2021",
+            "functional": null,
+            "stable": null,
+            "features": [
+                "Added stone, iron, gold, diamond, copper, and tin hammers."
+            ]
+        },
         {
             "version_id": "0.5.11.10",
             "project-authors": [
