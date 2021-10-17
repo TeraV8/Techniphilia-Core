@@ -12,8 +12,8 @@
             ],
             "release": false,
             "build_date": "10/17/2021",
-            "functional": null,
-            "stable": null,
+            "functional": true,
+            "stable": true,
             "features": [
                 "Added recipes for the new hammers."
             ]
