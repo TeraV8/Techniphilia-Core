@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mmm",
+        "m|m",
+        " | "
+    ],
+    "key": {
+        "m": {
+            "type": "forge:ore_dict",
+            "ore": "blockCobblestone"
+        },
+        "|": {
+            "type": "forge:ore_dict",
+            "ore": "stickWood"
+        }
+    },
+    "result": {
+        "item": "techniphilia:hammer_stone",
+        "count": 1,
+        "data": 0
+    }
+}
