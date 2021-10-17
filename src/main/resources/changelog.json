@@ -13,8 +13,8 @@
             "release": false,
             "build_date": "10/16/2021",
             "release_date": null,
-            "functional": null,
-            "stable": null,
+            "functional": true,
+            "stable": true,
             "features": [
                 "Added recipe for Wooden Hammer.",
                 "Completed recipe for Rough Wheel."
