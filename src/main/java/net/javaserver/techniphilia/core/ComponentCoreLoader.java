@@ -1,19 +1,10 @@
 package net.javaserver.techniphilia.core;
 
-import net.javaserver.techniphilia.core.common.item.ItemTinIngot;
-import net.javaserver.techniphilia.core.common.item.ItemTinDust;
-import net.javaserver.techniphilia.core.common.item.ItemCopperIngot;
-import net.javaserver.techniphilia.core.common.item.ItemTinNugget;
-import net.javaserver.techniphilia.core.common.item.ItemCopperNugget;
-import net.javaserver.techniphilia.core.common.item.ItemCopperDust;
-import net.javaserver.techniphilia.core.common.block.BlockTin;
-import net.javaserver.techniphilia.core.common.block.BlockTinOre;
-import net.javaserver.techniphilia.core.common.block.BlockCopperOre;
-import net.javaserver.techniphilia.core.common.block.BlockCopper;
+import net.javaserver.techniphilia.core.common.item.*;
+import net.javaserver.techniphilia.core.common.block.*;
 import java.util.Random;
 import net.javaserver.techniphilia.core.common.*;
-import net.javaserver.techniphilia.core.common.tool.ToolHammerStone;
-import net.javaserver.techniphilia.core.common.tool.ToolHammerWood;
+import net.javaserver.techniphilia.core.common.tool.*;
 import net.javaserver.techniphilia.core.config.TechniphiliaCoreConfig;
 import net.javaserver.techniphilia.core.config.WorldGenConfig;
 import net.minecraft.block.Block;
@@ -100,6 +91,11 @@ public class ComponentCoreLoader implements IWorldGenerator {
         OreDictionary.registerOre("dustTin", ItemTinDust.instance());
         registry.register(ToolHammerWood.instance());
         registry.register(ToolHammerStone.instance());
+        registry.register(ToolHammerIron.instance());
+        registry.register(ToolHammerGold.instance());
+        registry.register(ToolHammerDiamond.instance());
+        registry.register(ToolHammerCopper.instance());
+        registry.register(ToolHammerTin.instance());
     }
     
     @SubscribeEvent
@@ -117,6 +113,11 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registerRender(ItemTinDust.instance());
         registerRender(ToolHammerWood.instance());
         registerRender(ToolHammerStone.instance());
+        registerRender(ToolHammerIron.instance());
+        registerRender(ToolHammerGold.instance());
+        registerRender(ToolHammerDiamond.instance());
+        registerRender(ToolHammerCopper.instance());
+        registerRender(ToolHammerTin.instance());
     }
     
     public static void registerRender(Item item) {
