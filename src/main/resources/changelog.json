@@ -12,8 +12,8 @@
             ],
             "release": false,
             "build_date": "10/17/2021",
-            "functional": null,
-            "stable": null,
+            "functional": true,
+            "stable": true,
             "features": [
                 "Added copper/tin/aluminum tool types.",
                 "Added textures for planned hammers."
