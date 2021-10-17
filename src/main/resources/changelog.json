@@ -1,6 +1,25 @@
 {
-    "current_version": "0.5.11.8",
+    "current_version": "0.5.11.9",
     "version_history": [
+        {
+            "version_id": "0.5.11.9",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "10/16/2021",
+            "release_date": null,
+            "functional": null,
+            "stable": null,
+            "features": [
+                "Added recipe for Wooden Hammer.",
+                "Completed recipe for Rough Wheel."
+            ]
+        },
         {
             "version_id": "0.5.11.8",
             "project-authors": [
