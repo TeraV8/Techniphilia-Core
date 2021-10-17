@@ -1,6 +1,23 @@
 {
-    "current_version": "0.5.12.10",
+    "current_version": "0.5.13.10",
     "version_history": [
+        {
+            "version_id": "0.5.13.10",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "10/17/2021",
+            "functional": null,
+            "stable": null,
+            "features": [
+                "Added recipes for the new hammers."
+            ]
+        },
         {
             "version_id": "0.5.12.10",
             "project-authors": [
