@@ -12,6 +12,7 @@ import net.javaserver.techniphilia.core.common.block.BlockCopperOre;
 import net.javaserver.techniphilia.core.common.block.BlockCopper;
 import java.util.Random;
 import net.javaserver.techniphilia.core.common.*;
+import net.javaserver.techniphilia.core.common.tool.ToolHammerStone;
 import net.javaserver.techniphilia.core.common.tool.ToolHammerWood;
 import net.javaserver.techniphilia.core.config.TechniphiliaCoreConfig;
 import net.javaserver.techniphilia.core.config.WorldGenConfig;
@@ -98,6 +99,7 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registry.register(ItemTinDust.instance());
         OreDictionary.registerOre("dustTin", ItemTinDust.instance());
         registry.register(ToolHammerWood.instance());
+        registry.register(ToolHammerStone.instance());
     }
     
     @SubscribeEvent
@@ -114,6 +116,7 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registerRender(ItemCopperDust.instance());
         registerRender(ItemTinDust.instance());
         registerRender(ToolHammerWood.instance());
+        registerRender(ToolHammerStone.instance());
     }
     
     public static void registerRender(Item item) {
