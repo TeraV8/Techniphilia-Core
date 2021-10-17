@@ -1,6 +1,24 @@
 {
-    "current_version": "0.5.11.9",
+    "current_version": "0.5.11.10",
     "version_history": [
+        {
+            "version_id": "0.5.11.10",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "10/17/2021",
+            "functional": null,
+            "stable": null,
+            "features": [
+                "Added copper/tin/aluminum tool types.",
+                "Added textures for planned hammers."
+            ]
+        },
         {
             "version_id": "0.5.11.9",
             "project-authors": [
