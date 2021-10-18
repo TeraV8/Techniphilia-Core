@@ -12,7 +12,7 @@ public class BlockCryoliteOre extends Block {
     private BlockCryoliteOre() {
         super(Material.ROCK, MapColor.RED);
         setRegistryName("techniphilia", "cryolite_ore");
-        setUnlocalizedName("cyrolite");
+        setUnlocalizedName("cryolite");
         setHarvestLevel("pickaxe", 2);
         setHardness(2.7F);
         setCreativeTab(ModRegistry.getItemGroup());
