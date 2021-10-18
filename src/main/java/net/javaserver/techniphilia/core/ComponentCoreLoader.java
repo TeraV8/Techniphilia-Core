@@ -64,6 +64,8 @@ public class ComponentCoreLoader implements IWorldGenerator {
         OreDictionary.registerOre("blockCopper", BlockCopper.instance());
         registry.register(BlockTin.instance());
         OreDictionary.registerOre("blockTin", BlockTin.instance());
+        registry.register(BlockBauxiteOre.instance());
+        registry.register(BlockCryoliteOre.instance());
     }
     
     @SubscribeEvent
@@ -96,6 +98,8 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registry.register(ToolHammerDiamond.instance());
         registry.register(ToolHammerCopper.instance());
         registry.register(ToolHammerTin.instance());
+        registry.register(BlockBauxiteOre.itemBlock());
+        registry.register(BlockCryoliteOre.itemBlock());
     }
     
     @SubscribeEvent
@@ -118,6 +122,8 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registerRender(ToolHammerDiamond.instance());
         registerRender(ToolHammerCopper.instance());
         registerRender(ToolHammerTin.instance());
+        registerRender(BlockBauxiteOre.itemBlock());
+        registerRender(BlockCryoliteOre.itemBlock());
     }
     
     public static void registerRender(Item item) {
