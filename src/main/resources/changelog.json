@@ -13,8 +13,8 @@
             "release": false,
             "build_date": "10/17/2021",
             "release_date": null,
-            "functional": null,
-            "stable": null,
+            "functional": true,
+            "stable": true,
             "features": [
                 "Added Bauxite and Cryolite."
             ]
