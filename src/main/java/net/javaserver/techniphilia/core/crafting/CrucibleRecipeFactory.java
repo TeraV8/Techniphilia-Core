@@ -58,6 +58,15 @@ public class CrucibleRecipeFactory implements IRecipeFactory {
         } else {
             throw new JsonParseException("Recipe result was not of valid JSON type");
         }
-        return new CrucibleRecipe(obj, cat, result);
+        int reactionTime = 25600;
+        JsonElement reacTime = jo.get("time");
+        if (reacTime != null) {
+            if (!reacTime.isJsonPrimitive())
+                throw new JsonParseException("Reaction time must be a number");
+            reactionTime = reacTime.getAsInt();
+            if (reactionTime < 1) 
+                throw new JsonParseException("Reaction time must be a positive integer");
+        }
+        return new CrucibleRecipe(obj, cat, result, reactionTime);
     }
 }

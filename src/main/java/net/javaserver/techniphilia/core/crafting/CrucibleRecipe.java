@@ -11,10 +11,12 @@ public class CrucibleRecipe extends IForgeRegistryEntry.Impl<IRecipe> implements
     Ingredient object;
     Ingredient catalyst;
     ItemStack output;
-    CrucibleRecipe(Ingredient object, Ingredient catalyst, ItemStack output) {
+    int reactionTime;
+    CrucibleRecipe(Ingredient object, Ingredient catalyst, ItemStack output, int reactionTime) {
         this.object = object;
         this.catalyst = catalyst;
         this.output = output;
+        this.reactionTime = reactionTime;
     }
     @Override
     public boolean matches(InventoryCrafting ic, World world) { // meh

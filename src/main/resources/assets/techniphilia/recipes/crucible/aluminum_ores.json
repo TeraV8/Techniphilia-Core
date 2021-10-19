@@ -1,0 +1,15 @@
+{
+    "type": "techniphilia:crucible",
+    "object": {
+        "item": "techniphilia:bauxite_ore"
+    },
+    "catalyst": {
+        "item": "techniphilia:cryolite_ore"
+    },
+    "time": 25600,
+    "result": {
+        "item": "techniphilia:aluminum_ingot",
+        "count": 4,
+        "data": 0
+    }
+}
