@@ -1,6 +1,24 @@
 {
-    "current_version": "0.5.15.10",
+    "current_version": "0.5.16.10",
     "version_history": [
+        {
+            "version_id": "0.5.16.10",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "10/19/2021",
+            "release_date": null,
+            "functional": null,
+            "stable": null,
+            "features": [
+                "Added aluminum ingots, nuggets, and dust."
+            ]
+        },
         {
             "version_id": "0.5.15.10",
             "project-authors": [
