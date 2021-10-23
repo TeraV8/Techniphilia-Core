@@ -66,6 +66,8 @@ public class ComponentCoreLoader implements IWorldGenerator {
         OreDictionary.registerOre("blockTin", BlockTin.instance());
         registry.register(BlockBauxiteOre.instance());
         registry.register(BlockCryoliteOre.instance());
+        registry.register(BlockAluminum.instance());
+        OreDictionary.registerOre("blockAluminum", BlockAluminum.instance());
     }
     
     @SubscribeEvent
@@ -106,6 +108,8 @@ public class ComponentCoreLoader implements IWorldGenerator {
         OreDictionary.registerOre("nuggetAluminum", ItemAluminumNugget.instance());
         registry.register(ItemAluminumDust.instance());
         OreDictionary.registerOre("dustAluminum", ItemAluminumDust.instance());
+        registry.register(BlockAluminum.itemBlock());
+        OreDictionary.registerOre("blockAluminum", BlockAluminum.itemBlock());
     }
     
     @SubscribeEvent
@@ -133,6 +137,7 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registerRender(ItemAluminumIngot.instance());
         registerRender(ItemAluminumNugget.instance());
         registerRender(ItemAluminumDust.instance());
+        registerRender(BlockAluminum.itemBlock());
     }
     
     public static void registerRender(Item item) {

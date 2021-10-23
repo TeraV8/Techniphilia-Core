@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "techniphilia:aluminum_dust"
+        "layer0": "techniphilia:items/aluminum_dust"
     }
 }
