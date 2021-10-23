@@ -11,12 +11,12 @@
                 "TeraV"
             ],
             "release": false,
-            "build_date": "10/19/2021",
+            "build_date": "10/23/2021",
             "release_date": null,
             "functional": null,
             "stable": null,
             "features": [
-                "Added aluminum ingots, nuggets, and dust."
+                "Added aluminum ingots, nuggets, dust, and blocks."
             ]
         },
         {
