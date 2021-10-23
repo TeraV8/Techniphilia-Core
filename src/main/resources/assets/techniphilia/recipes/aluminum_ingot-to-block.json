@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotAluminum"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotAluminum"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotAluminum"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotAluminum"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotAluminum"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotAluminum"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotAluminum"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotAluminum"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotAluminum"
+        }
+    ],
+    "result": {
+        "item": "techniphilia:aluminum_block",
+        "count": 1,
+        "data": 0
+    }
+}

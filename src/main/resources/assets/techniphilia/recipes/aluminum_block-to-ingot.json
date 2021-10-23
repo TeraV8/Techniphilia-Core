@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "type": "forge:ore_dict",
+            "ore": "blockAluminum"
+        }
+    ],
+    "result": {
+        "item": "techniphilia:aluminum_ingot",
+        "count": 9,
+        "data": 0
+    }
+}
