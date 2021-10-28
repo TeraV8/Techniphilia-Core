@@ -2,6 +2,25 @@
     "current_version": "0.5.16.10",
     "version_history": [
         {
+            "version_id": "",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "",
+            "release_date": null,
+            "functional": null,
+            "stable": null,
+            "features": [
+                "",
+                "Increased hammer attack damage."
+            ]
+        },
+        {
             "version_id": "0.5.16.10",
             "project-authors": [
                 "TeraV",
