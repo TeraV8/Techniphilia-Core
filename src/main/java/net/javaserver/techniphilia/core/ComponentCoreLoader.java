@@ -100,6 +100,7 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registry.register(ToolHammerDiamond.instance());
         registry.register(ToolHammerCopper.instance());
         registry.register(ToolHammerTin.instance());
+        registry.register(ToolHammerAluminum.instance());
         registry.register(BlockBauxiteOre.itemBlock());
         registry.register(BlockCryoliteOre.itemBlock());
         registry.register(ItemAluminumIngot.instance());
@@ -132,6 +133,7 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registerRender(ToolHammerDiamond.instance());
         registerRender(ToolHammerCopper.instance());
         registerRender(ToolHammerTin.instance());
+        registerRender(ToolHammerAluminum.instance());
         registerRender(BlockBauxiteOre.itemBlock());
         registerRender(BlockCryoliteOre.itemBlock());
         registerRender(ItemAluminumIngot.instance());
