@@ -1,8 +1,8 @@
 {
-    "current_version": "0.5.16.10",
+    "current_version": "0.5.17.10",
     "version_history": [
         {
-            "version_id": "",
+            "version_id": "0.5.17.10",
             "project-authors": [
                 "TeraV",
                 "CosmicWolf"
@@ -16,7 +16,7 @@
             "functional": null,
             "stable": null,
             "features": [
-                "",
+                "Added Aluminum Hammer.",
                 "Increased hammer attack damage."
             ]
         },
