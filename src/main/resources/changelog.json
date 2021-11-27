@@ -1,6 +1,24 @@
 {
-    "current_version": "0.5.17.10",
+    "current_version": "0.5.18.10",
     "version_history": [
+        {
+            "version_id": "0.5.18.10",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "",
+            "release_date": null,
+            "functional": null,
+            "stable": null,
+            "features": [
+                "Added Bauxite and Cryolite to worldgen."
+            ]
+        },
         {
             "version_id": "0.5.17.10",
             "project-authors": [
@@ -11,7 +29,7 @@
                 "TeraV"
             ],
             "release": false,
-            "build_date": "",
+            "build_date": "11/26/2021",
             "release_date": null,
             "functional": true,
             "stable": true,
