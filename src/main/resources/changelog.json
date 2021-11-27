@@ -13,8 +13,8 @@
             "release": false,
             "build_date": "",
             "release_date": null,
-            "functional": null,
-            "stable": null,
+            "functional": true,
+            "stable": true,
             "features": [
                 "Added Aluminum Hammer.",
                 "Increased hammer attack damage."
