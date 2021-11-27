@@ -176,5 +176,25 @@ public class ComponentCoreLoader implements IWorldGenerator {
             int z = cz * 16 + random.nextInt(16);
             ore.generate(world, random, new BlockPos(x,y,z));
         }
+        // bauxite factory
+        ore = new WorldGenMinable(BlockBauxiteOre.instance().getDefaultState(),
+                                    WorldGenConfig.bauxiteVeinSizeMin + random.nextInt(WorldGenConfig.bauxiteVeinSizeMin - WorldGenConfig.bauxiteVeinSizeMax),
+                                    BlockMatcher.forBlock(Blocks.STONE));
+        for (int i = 0; i < WorldGenConfig.bauxiteVeinsPerChunk; i++) {
+            int x = cx * 16 + random.nextInt(16);
+            int y = WorldGenConfig.bauxiteVeinMinY + random.nextInt(WorldGenConfig.bauxiteVeinMaxY - WorldGenConfig.bauxiteVeinMinY);
+            int z = cz * 16 + random.nextInt(16);
+            ore.generate(world, random, new BlockPos(x,y,z));
+        }
+        // cryolite chamber
+        ore = new WorldGenMinable(BlockCryoliteOre.instance().getDefaultState(),
+                                    WorldGenConfig.cryoliteVeinSizeMin + random.nextInt(WorldGenConfig.cryoliteVeinSizeMin - WorldGenConfig.cryoliteVeinSizeMax),
+                                    BlockMatcher.forBlock(Blocks.STONE));
+        for (int i = 0; i < WorldGenConfig.cryoliteVeinsPerChunk; i++) {
+            int x = cx * 16 + random.nextInt(16);
+            int y = WorldGenConfig.cryoliteVeinMinY + random.nextInt(WorldGenConfig.cryoliteVeinMaxY - WorldGenConfig.cryoliteVeinMinY);
+            int z = cz * 16 + random.nextInt(16);
+            ore.generate(world, random, new BlockPos(x,y,z));
+        }
     }
 }
