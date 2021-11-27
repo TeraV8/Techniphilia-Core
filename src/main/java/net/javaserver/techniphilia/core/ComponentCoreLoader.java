@@ -178,7 +178,7 @@ public class ComponentCoreLoader implements IWorldGenerator {
         }
         // bauxite factory
         ore = new WorldGenMinable(BlockBauxiteOre.instance().getDefaultState(),
-                                    WorldGenConfig.bauxiteVeinSizeMin + random.nextInt(WorldGenConfig.bauxiteVeinSizeMin - WorldGenConfig.bauxiteVeinSizeMax),
+                                    WorldGenConfig.bauxiteVeinSizeMin + random.nextInt(WorldGenConfig.bauxiteVeinSizeMax - WorldGenConfig.bauxiteVeinSizeMin),
                                     BlockMatcher.forBlock(Blocks.STONE));
         for (int i = 0; i < WorldGenConfig.bauxiteVeinsPerChunk; i++) {
             int x = cx * 16 + random.nextInt(16);
@@ -188,7 +188,7 @@ public class ComponentCoreLoader implements IWorldGenerator {
         }
         // cryolite chamber
         ore = new WorldGenMinable(BlockCryoliteOre.instance().getDefaultState(),
-                                    WorldGenConfig.cryoliteVeinSizeMin + random.nextInt(WorldGenConfig.cryoliteVeinSizeMin - WorldGenConfig.cryoliteVeinSizeMax),
+                                    WorldGenConfig.cryoliteVeinSizeMin + random.nextInt(WorldGenConfig.cryoliteVeinSizeMax - WorldGenConfig.cryoliteVeinSizeMin),
                                     BlockMatcher.forBlock(Blocks.STONE));
         for (int i = 0; i < WorldGenConfig.cryoliteVeinsPerChunk; i++) {
             int x = cx * 16 + random.nextInt(16);
