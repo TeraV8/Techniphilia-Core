@@ -16,7 +16,8 @@
             "functional": null,
             "stable": null,
             "features": [
-                "Added Bauxite and Cryolite to worldgen."
+                "Added Bauxite and Cryolite to worldgen.",
+                "Fixed bug produced when mining a block with a hammer."
             ]
         },
         {
