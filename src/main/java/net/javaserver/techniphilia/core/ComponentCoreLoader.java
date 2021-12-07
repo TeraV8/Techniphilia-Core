@@ -68,6 +68,8 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registry.register(BlockCryoliteOre.instance());
         registry.register(BlockAluminum.instance());
         OreDictionary.registerOre("blockAluminum", BlockAluminum.instance());
+        registry.register(BlockBronze.instance());
+        OreDictionary.registerOre("blockBronze", BlockBronze.instance());
     }
     
     @SubscribeEvent
@@ -111,6 +113,14 @@ public class ComponentCoreLoader implements IWorldGenerator {
         OreDictionary.registerOre("dustAluminum", ItemAluminumDust.instance());
         registry.register(BlockAluminum.itemBlock());
         OreDictionary.registerOre("blockAluminum", BlockAluminum.itemBlock());
+        registry.register(ItemBronzeIngot.instance());
+        OreDictionary.registerOre("ingotBronze", ItemBronzeIngot.instance());
+        registry.register(ItemBronzeNugget.instance());
+        OreDictionary.registerOre("nuggetBronze", ItemBronzeNugget.instance());
+        registry.register(ItemBronzeDust.instance());
+        OreDictionary.registerOre("dustBronze", ItemBronzeDust.instance());
+        registry.register(BlockBronze.itemBlock());
+        OreDictionary.registerOre("blockBronze", BlockBronze.itemBlock());
     }
     
     @SubscribeEvent
@@ -140,6 +150,10 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registerRender(ItemAluminumNugget.instance());
         registerRender(ItemAluminumDust.instance());
         registerRender(BlockAluminum.itemBlock());
+        registerRender(ItemBronzeIngot.instance());
+        registerRender(ItemBronzeNugget.instance());
+        registerRender(ItemBronzeDust.instance());
+        registerRender(BlockBronze.itemBlock());
     }
     
     public static void registerRender(Item item) {
