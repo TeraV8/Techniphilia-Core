@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotBronze"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotBronze"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotBronze"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotBronze"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotBronze"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotBronze"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotBronze"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotBronze"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "ingotBronze"
+        }
+    ],
+    "result": {
+        "item": "techniphilia:bronze_block",
+        "count": 1,
+        "data": 0
+    }
+}

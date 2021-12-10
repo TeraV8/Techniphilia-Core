@@ -17,7 +17,9 @@
             "stable": null,
             "features": [
                 "Added bronze ingot, dust, and nugget",
-                "Added textures for other bronze items"
+                "Added textures for other bronze items",
+                "Added bronze tool type",
+                "Updated file credits"
             ]
         },
         {
