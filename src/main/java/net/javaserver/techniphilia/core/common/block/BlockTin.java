@@ -13,6 +13,8 @@ public class BlockTin extends Block {
         super(Material.ROCK, MapColor.ICE);
         setRegistryName("techniphilia","tin_block");
         setUnlocalizedName("tin_block");
+        setHarvestLevel("pickaxe", 0);
+        setHardness(0.5F);
         setCreativeTab(ModRegistry.getItemGroup());
     }
     public static synchronized BlockTin instance() {

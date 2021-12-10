@@ -13,6 +13,8 @@ public class BlockAluminum extends Block {
         super(Material.ROCK, MapColor.CLAY);
         setRegistryName("techniphilia", "aluminum_block");
         setUnlocalizedName("aluminum_block");
+        setHarvestLevel("pickaxe", 0);
+        setHardness(0.5F);
         setCreativeTab(ModRegistry.getItemGroup());
     }
     public static synchronized BlockAluminum instance() {

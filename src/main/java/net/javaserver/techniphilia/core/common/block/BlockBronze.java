@@ -13,6 +13,8 @@ public class BlockBronze extends Block {
         super(Material.ROCK, MapColor.ORANGE_STAINED_HARDENED_CLAY);
         setRegistryName("techniphilia", "bronze_block");
         setUnlocalizedName("bronze_block");
+        setHarvestLevel("pickaxe", 0);
+        setHardness(0.5F);
         setCreativeTab(ModRegistry.getItemGroup());
     }
     public static synchronized BlockBronze instance() {

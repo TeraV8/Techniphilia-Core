@@ -13,6 +13,8 @@ public class BlockCopper extends Block {
         super(Material.ROCK, MapColor.DIRT);
         setRegistryName("techniphilia","copper_block");
         setUnlocalizedName("copper_block");
+        setHarvestLevel("pickaxe", 0);
+        setHardness(0.5F);
         setCreativeTab(ModRegistry.getItemGroup());
     }
     public static synchronized BlockCopper instance() {
