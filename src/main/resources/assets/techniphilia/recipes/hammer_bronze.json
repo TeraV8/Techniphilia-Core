@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mmm",
+        "m|m",
+        " | "
+    ],
+    "key": {
+        "m": {
+            "type": "forge:ore_dict",
+            "ore": "ingotBronze"
+        },
+        "|": {
+            "type": "forge:ore_dict",
+            "ore": "stickWood"
+        }
+    },
+    "result": {
+        "item": "techniphilia:hammer_bronze",
+        "count": 1,
+        "data": 0
+    }
+}

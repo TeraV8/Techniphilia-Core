@@ -121,6 +121,7 @@ public class ComponentCoreLoader implements IWorldGenerator {
         OreDictionary.registerOre("dustBronze", ItemBronzeDust.instance());
         registry.register(BlockBronze.itemBlock());
         OreDictionary.registerOre("blockBronze", BlockBronze.itemBlock());
+        registry.register(ToolHammerBronze.instance());
     }
     
     @SubscribeEvent
@@ -154,6 +155,7 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registerRender(ItemBronzeNugget.instance());
         registerRender(ItemBronzeDust.instance());
         registerRender(BlockBronze.itemBlock());
+        registerRender(ToolHammerBronze.instance());
     }
     
     public static void registerRender(Item item) {
