@@ -2,6 +2,24 @@
     "current_version": "0.5.19.10",
     "version_history": [
         {
+            "version_id": "1.0.0.0",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": true,
+            "build_date": "",
+            "release_date": "",
+            "functional": null,
+            "stable": null,
+            "features": [
+                "Added Bronze Hammer"
+            ]
+        },
+        {
             "version_id": "0.5.19.10",
             "project-authors": [
                 "TeraV",
@@ -11,7 +29,7 @@
                 "TeraV"
             ],
             "release": false,
-            "build_date": "",
+            "build_date": "12/09/2021",
             "release_date": null,
             "functional": true,
             "stable": true,
