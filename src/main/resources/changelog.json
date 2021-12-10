@@ -13,12 +13,13 @@
             "release": false,
             "build_date": "",
             "release_date": null,
-            "functional": null,
-            "stable": null,
+            "functional": true,
+            "stable": true,
             "features": [
                 "Added bronze ingot, dust, and nugget",
                 "Added textures for other bronze items",
                 "Added bronze tool type",
+                "Fixed material block harvest level",
                 "Updated file credits"
             ]
         },
