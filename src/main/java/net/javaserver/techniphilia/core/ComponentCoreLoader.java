@@ -75,26 +75,6 @@ public class ComponentCoreLoader implements IWorldGenerator {
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
-        registry.register(BlockCopperOre.itemBlock());
-        OreDictionary.registerOre("oreCopper", BlockCopperOre.itemBlock());
-        registry.register(BlockTinOre.itemBlock());
-        OreDictionary.registerOre("oreTin", BlockTinOre.itemBlock());
-        registry.register(ItemCopperIngot.instance());
-        OreDictionary.registerOre("ingotCopper", ItemCopperIngot.instance());
-        registry.register(ItemTinIngot.instance());
-        OreDictionary.registerOre("ingotTin", ItemTinIngot.instance());
-        registry.register(ItemCopperNugget.instance());
-        OreDictionary.registerOre("nuggetCopper", ItemCopperNugget.instance());
-        registry.register(ItemTinNugget.instance());
-        OreDictionary.registerOre("nuggetTin", ItemTinNugget.instance());
-        registry.register(BlockCopper.itemBlock());
-        OreDictionary.registerOre("blockCopper", BlockCopper.itemBlock());
-        registry.register(BlockTin.itemBlock());
-        OreDictionary.registerOre("blockTin", BlockTin.itemBlock());
-        registry.register(ItemCopperDust.instance());
-        OreDictionary.registerOre("dustCopper", ItemCopperDust.instance());
-        registry.register(ItemTinDust.instance());
-        OreDictionary.registerOre("dustTin", ItemTinDust.instance());
         registry.register(ToolHammerWood.instance());
         registry.register(ToolHammerStone.instance());
         registry.register(ToolHammerIron.instance());
@@ -103,25 +83,45 @@ public class ComponentCoreLoader implements IWorldGenerator {
         registry.register(ToolHammerCopper.instance());
         registry.register(ToolHammerTin.instance());
         registry.register(ToolHammerAluminum.instance());
+        registry.register(ToolHammerBronze.instance());
+        registry.register(BlockCopperOre.itemBlock());
+        OreDictionary.registerOre("oreCopper", BlockCopperOre.itemBlock());
+        registry.register(BlockCopper.itemBlock());
+        OreDictionary.registerOre("blockCopper", BlockCopper.itemBlock());
+        registry.register(ItemCopperIngot.instance());
+        OreDictionary.registerOre("ingotCopper", ItemCopperIngot.instance());
+        registry.register(ItemCopperNugget.instance());
+        OreDictionary.registerOre("nuggetCopper", ItemCopperNugget.instance());
+        registry.register(ItemCopperDust.instance());
+        OreDictionary.registerOre("dustCopper", ItemCopperDust.instance());
+        registry.register(BlockTinOre.itemBlock());
+        OreDictionary.registerOre("oreTin", BlockTinOre.itemBlock());
+        registry.register(BlockTin.itemBlock());
+        OreDictionary.registerOre("blockTin", BlockTin.itemBlock());
+        registry.register(ItemTinIngot.instance());
+        OreDictionary.registerOre("ingotTin", ItemTinIngot.instance());
+        registry.register(ItemTinNugget.instance());
+        OreDictionary.registerOre("nuggetTin", ItemTinNugget.instance());
+        registry.register(ItemTinDust.instance());
+        OreDictionary.registerOre("dustTin", ItemTinDust.instance());
         registry.register(BlockBauxiteOre.itemBlock());
         registry.register(BlockCryoliteOre.itemBlock());
+        registry.register(BlockAluminum.itemBlock());
+        OreDictionary.registerOre("blockAluminum", BlockAluminum.itemBlock());
         registry.register(ItemAluminumIngot.instance());
         OreDictionary.registerOre("ingotAluminum", ItemAluminumIngot.instance());
         registry.register(ItemAluminumNugget.instance());
         OreDictionary.registerOre("nuggetAluminum", ItemAluminumNugget.instance());
         registry.register(ItemAluminumDust.instance());
         OreDictionary.registerOre("dustAluminum", ItemAluminumDust.instance());
-        registry.register(BlockAluminum.itemBlock());
-        OreDictionary.registerOre("blockAluminum", BlockAluminum.itemBlock());
+        registry.register(BlockBronze.itemBlock());
+        OreDictionary.registerOre("blockBronze", BlockBronze.itemBlock());
         registry.register(ItemBronzeIngot.instance());
         OreDictionary.registerOre("ingotBronze", ItemBronzeIngot.instance());
         registry.register(ItemBronzeNugget.instance());
         OreDictionary.registerOre("nuggetBronze", ItemBronzeNugget.instance());
         registry.register(ItemBronzeDust.instance());
         OreDictionary.registerOre("dustBronze", ItemBronzeDust.instance());
-        registry.register(BlockBronze.itemBlock());
-        OreDictionary.registerOre("blockBronze", BlockBronze.itemBlock());
-        registry.register(ToolHammerBronze.instance());
     }
     
     @SubscribeEvent
