@@ -4,6 +4,9 @@ itemGroup.techniphiliaTravelBase=Techniphilia Travel
 itemGroup.techniphiliaBaseBase=Techniphilia Base
 itemGroup.techniphiliaToolsBase=Techniphilia Tools
 
+# tooltips (currently just for config menu)
+techniphilia/worldgen/core.tooltip=Core Worldgen Config
+
 # blocks (yay!)
 tile.copper_ore.name=Copper Ore
 tile.tin_ore.name=Tin Ore

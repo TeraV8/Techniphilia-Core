@@ -1,9 +1,8 @@
 package net.javaserver.techniphilia.core.config;
 
-import net.javaserver.techniphilia.core.common.ModRegistry;
 import net.minecraftforge.common.config.Config;
 
-@Config(modid = ModRegistry.MOD_ID,
+@Config(modid = "techniphilia",
         name = "techniphilia/worldgen/core")
 public class WorldGenConfig {
     public static int copperVeinSizeMin = 4;

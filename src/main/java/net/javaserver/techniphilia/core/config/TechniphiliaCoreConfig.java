@@ -7,6 +7,7 @@ import net.minecraftforge.common.config.Config.Comment;
 @Config(modid = ModRegistry.MOD_ID,
         name = "techniphilia/core")
 public class TechniphiliaCoreConfig {
+    @Comment("World generation settings")
     public static WorldGen worldgen = new WorldGen();
     public static class WorldGen {
         @Comment("Set to false to disable Techniphilia world generation.")
