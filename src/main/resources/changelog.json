@@ -1,5 +1,5 @@
 {
-    "current_version": "0.5.19.10",
+    "current_version": "1.0.0.0",
     "version_history": [
         {
             "version_id": "1.0.0.0",
@@ -11,12 +11,14 @@
                 "TeraV"
             ],
             "release": true,
-            "build_date": "",
-            "release_date": "",
-            "functional": null,
-            "stable": null,
+            "build_date": "12/29/2021",
+            "release_date": "12/29/2021",
+            "functional": true,
+            "stable": true,
             "features": [
-                "Added Bronze Hammer"
+                "Added Bronze Hammer",
+                "Reordered items in creative menu",
+                "Re-attributed worldgen config to techniphilia root"
             ]
         },
         {

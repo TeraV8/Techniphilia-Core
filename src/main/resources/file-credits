@@ -3,10 +3,10 @@
 /mcmod.info: Forge, TeraV
 /pack.mcmeta: Mojang, Forge, TeraV
 /assets/techniphilia/textures/: CosmicWolf
-/assets/techniphilia/textures/aluminum_block.png: TeraV
-/assets/techniphilia/textures/bauxite_ore.png: TeraV
-/assets/techniphilia/textures/cryolite_ore.png: TeraV
-/assets/techniphilia/textures/bronze_block.png: TeraV
+/assets/techniphilia/textures/blocks/aluminum_block.png: TeraV
+/assets/techniphilia/textures/blocks/bauxite_ore.png: TeraV
+/assets/techniphilia/textures/blocks/cryolite_ore.png: TeraV
+/assets/techniphilia/textures/blocks/bronze_block.png: TeraV
 /assets/techniphilia/textures/items/hammer_*: TeraV
 /assets/techniphilia/textures/items/aluminum_*: TeraV
 /assets/techniphilia/textures/items/bronze_*: TeraV
