@@ -40,10 +40,6 @@ public class ComponentCoreLoader implements IWorldGenerator {
     public void preInit(FMLPreInitializationEvent event) {
         ModRegistry.logger = event.getModLog();
         ModRegistry.logger.info("TechniphiliaCore: preinit");
-        GameRegistry.addSmelting(BlockCopperOre.itemBlock(), new ItemStack(ItemCopperIngot.instance()), 0.8F);
-        GameRegistry.addSmelting(BlockTinOre.itemBlock(), new ItemStack(ItemTinIngot.instance()), 0.9F);
-        GameRegistry.addSmelting(ItemCopperDust.instance(), new ItemStack(ItemCopperIngot.instance()), 0);
-        GameRegistry.addSmelting(ItemTinDust.instance(), new ItemStack(ItemTinIngot.instance()), 0);
     }
 
     @EventHandler
@@ -51,6 +47,10 @@ public class ComponentCoreLoader implements IWorldGenerator {
         ModRegistry.logger.info("Hello blocky world!");
         GameRegistry.registerWorldGenerator(this, 3);
         //net.javaserver.techniphilia.core.common.ModRegistry.getItemGroup();
+        GameRegistry.addSmelting(BlockCopperOre.itemBlock(), new ItemStack(ItemCopperIngot.instance()), 0.8F);
+        GameRegistry.addSmelting(BlockTinOre.itemBlock(), new ItemStack(ItemTinIngot.instance()), 0.9F);
+        GameRegistry.addSmelting(ItemCopperDust.instance(), new ItemStack(ItemCopperIngot.instance()), 0);
+        GameRegistry.addSmelting(ItemTinDust.instance(), new ItemStack(ItemTinIngot.instance()), 0);
     }
     
     @SubscribeEvent
