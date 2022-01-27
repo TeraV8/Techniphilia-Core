@@ -1,6 +1,24 @@
 {
-    "current_version": "1.0.0.0",
+    "current_version": "1.0.1.0",
     "version_history": [
+        {
+            "version_id": "1.0.1.0",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": true,
+            "build_date": "",
+            "release_date": "",
+            "functional": true,
+            "stable": null,
+            "features": [
+                "Added armor materials"
+            ]
+        },
         {
             "version_id": "1.0.0.0",
             "project-authors": [
