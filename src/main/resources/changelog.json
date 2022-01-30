@@ -11,10 +11,10 @@
                 "TeraV"
             ],
             "release": true,
-            "build_date": "",
-            "release_date": "",
+            "build_date": "01/27/2022",
+            "release_date": "01/29/2022",
             "functional": true,
-            "stable": null,
+            "stable": true,
             "features": [
                 "Added armor materials"
             ]
