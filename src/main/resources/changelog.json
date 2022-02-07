@@ -1,6 +1,24 @@
 {
-    "current_version": "1.0.1.0",
+    "current_version": "1.0.1.2",
     "version_history": [
+        {
+            "version_id": "1.0.1.2",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": true,
+            "build_date": "02/07/2022",
+            "release_date": "",
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Fixed Aluminum Pickaxe langkey"
+            ]
+        },
         {
             "version_id": "1.0.1.1",
             "project-authors": [
