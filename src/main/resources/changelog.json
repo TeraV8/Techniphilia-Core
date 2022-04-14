@@ -1,6 +1,24 @@
 {
-    "current_version": "1.0.1.2",
+    "current_version": "1.0.1.3",
     "version_history": [
+        {
+            "version_id": "1.0.1.3",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": true,
+            "build_date": "04/14/2022",
+            "release_date": "04/14/2022",
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Fixed #1: Invalid registration attempt"
+            ]
+        },
         {
             "version_id": "1.0.1.2",
             "project-authors": [
@@ -12,7 +30,7 @@
             ],
             "release": true,
             "build_date": "02/07/2022",
-            "release_date": "",
+            "release_date": "02/07/2022",
             "functional": true,
             "stable": true,
             "features": [
