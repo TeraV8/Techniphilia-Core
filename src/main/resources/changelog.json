@@ -1,6 +1,24 @@
 {
-    "current_version": "1.0.1.3",
+    "current_version": "1.0.1.4",
     "version_history": [
+        {
+            "version_id": "1.0.1.4",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": true,
+            "build_date": null,
+            "release_date": "06/08/2022",
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Tweaked hammer damage"
+            ]
+        },
         {
             "version_id": "1.0.1.3",
             "project-authors": [
