@@ -1,6 +1,24 @@
 {
-    "current_version": "1.0.1.4",
+    "current_version": "1.0.1.5",
     "version_history": [
+        {
+            "version_id": "1.0.1.5",
+            "project-authors": [
+                "TeraV",
+                "CosmicWolf"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": true,
+            "build_date": "07/19/2023",
+            "release_date": "07/19/2023",
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added smelting from bronze and aluminum dust"
+            ]
+        },
         {
             "version_id": "1.0.1.4",
             "project-authors": [
@@ -11,7 +29,7 @@
                 "TeraV"
             ],
             "release": true,
-            "build_date": null,
+            "build_date": "06/08/2022",
             "release_date": "06/08/2022",
             "functional": true,
             "stable": true,

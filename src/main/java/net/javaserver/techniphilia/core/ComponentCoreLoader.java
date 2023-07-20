@@ -51,6 +51,8 @@ public class ComponentCoreLoader implements IWorldGenerator {
         GameRegistry.addSmelting(BlockTinOre.itemBlock(), new ItemStack(ItemTinIngot.instance()), 0.9F);
         GameRegistry.addSmelting(ItemCopperDust.instance(), new ItemStack(ItemCopperIngot.instance()), 0);
         GameRegistry.addSmelting(ItemTinDust.instance(), new ItemStack(ItemTinIngot.instance()), 0);
+        GameRegistry.addSmelting(ItemBronzeDust.instance(), new ItemStack(ItemBronzeIngot.instance()), 0);
+        GameRegistry.addSmelting(ItemAluminumDust.instance(), new ItemStack(ItemAluminumIngot.instance()), 0);
     }
     
     @SubscribeEvent
